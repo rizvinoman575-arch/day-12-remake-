@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+   background-color: #F2CCD4; 
+}
+
+.header-h{
+    font-size: 80px;
+}
+
+.header-p{
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+ul {
+    gap: 30px;
+}
+
+.logo {
+    font-size: 35px;
+
+}
+
+.slogo {
+    color: #E55473;
+}
+
+
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: #E55473;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+.header-des {
+    padding: 200px;
+   
+}
+
+.header-p {
+    margin-top: 30px;
+}
+.header-main-div {
+    display: flex;
+}
+
+.header-img {
+    width: 100;
+    padding: 80px 80px 0; 
+}
+
+.header-main-div .header-img {
+    width: 50%;
+}
+
+.png{
+    position: relative;
+    top: 5px;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-itmes {
+    display: flex;
+    gap: 20px;
+
+}
+
+.navbar {
+    padding: 10px 200px;
+    align-items: center;
+    
+}
+
+.product-sec {
+    text-align: center;
+    padding: 0 300 0 300;
+
+}
+
+.product-heading {
+    text-align: center;
+    font-size: 40px;
+    margin: 150px 0 15px 0;
+}
+
+.product-des {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 30px 0;
+
+
+}
+
+.hd {
+    padding: 0 700px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 20px;
+
+}
+
+.img-1 {
+    background-color: #A72162;
+
+
+}
+
+.img-2 {
+    background-color: #0597A0;
+}
+
+.img-3 {
+    background-color: #477D11;
+}
+
+.images>div>p {
+    border-bottom: 1px solid black;
+}
+
+
+.png-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+    background-color: #bbb8b8;
+    height: 200px;
+    /* padding: 100px 200px; */
+}
+
+.pp {
+    padding: 200px 190px;
+}
+
+
+.sing-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    background: #F2CCD4;
+    
+}
+
+.sing-h, .sing-i {
+    padding: 70px;
+}
+
+.sing-h>h2 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.sing-p {
+    font-size: 18px;
+}
+ .off {
+    color: #A72162;
+ }
+
+ .instagram {
+    text-align: center;
+    padding: 100px 400px;
+ }
+
+ .instagram>p {
+    margin-top: 10px;
+ }
+
+ .instagram>h2 {
+    font-size: 40px;
+ }
+
+ .flowers {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+ }
+
+ #section {
+    padding: 100px 200px;
+ }
+
+ .jamlea {
+   
+    background-image: url("./../jamela/Rectangle\ 9.png");
+    margin-top: 120px;
+    margin-bottom: 120px;
+ }
+
+ .insta-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    align-items: center;
+ }
+
+ #section>h2 {
+    font-size: 40px;
+ }
+
+ .input {
+    padding: 10px 50px;
+ }
+
+ .footer {
+    text-align: center;
+    margin-top: 50px;
+    background: #000;
+    color: aliceblue;
+    padding: 150px;
+    
+ }
+
+ .footer-h {
+    font-size: 45px;
+ }
+
+ .fl {
+    color: #E55473;
+ }
+
+ .footer>p {
+    padding: 0 500px;
+    margin-top: 20px;
+    
+ }
+
+ .fp {
+    margin-top: 50px;
+ }
