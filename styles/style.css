@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 header {
    background-color: #F2CCD4; 
 }
@@ -47,8 +48,12 @@ ul {
     background-color: #E55473;
     color: white;
     margin-top: 30px;
+    cursor: pointer;
 }
 
+.btn :hover {
+    transform: scale(1.1);
+}
 
 
 .header-des {
@@ -210,21 +215,41 @@ a {
     gap: 40px;
  }
 
- #section {
-    padding: 100px 200px;
+ /* #section {
+    padding: 100px 200px ;
+ } */
+
+ 
+ 
+ 
+ #section-4 {
+    background-image: url("./../resorces/Flower Asset/Rectangle\ 9.png");
+    
+    margin: 100px 250px;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
  }
 
- .jamlea {
-   
-    background-image: url("./../jamela/Rectangle\ 9.png");
-    margin-top: 120px;
-    margin-bottom: 120px;
+ .jamela {
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+ }
+
+ .jamela-h {
+    font-size: 40px;
+ }
+
+ .jamela-p {
+    margin-top: 20px;
  }
 
  .insta-div{
     display: flex;
-    justify-content: center;
-    align-items: center;
+   justify-content: center;
+   align-items: center;
     margin-top: 20px;
     gap: 20px;
     align-items: center;
@@ -236,7 +261,8 @@ a {
  }
 
  .input {
-    padding: 10px 50px;
+    padding: 10px 70px;
+    margin-top: 30px;
  }
 
  .footer {
